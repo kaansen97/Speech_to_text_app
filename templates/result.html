@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription Result</title>
+</head>
+<body>
+    <h1>Transcription Result</h1>
+    <div id="status">
+        <p>Transcribing... Please wait.</p>
+    </div>
+
+    <div id="transcript" style="display:none;">
+        <h2>Transcript:</h2>
+        <pre>{{ transcript }}</pre>
+        <a href="{{ url_for('download_file', filename=transcript_file) }}">Download Transcription</a>
+    </div>
+
+    <script>
+        // Check if the transcription is completed and show the result
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById("status").style.display = "none";
+                document.getElementById("transcript").style.display = "block";
+            }, 2000);  // Simulate a delay for demonstration purposes
+        };
+    </script>
+</body>
+</html>
