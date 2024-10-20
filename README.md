@@ -15,7 +15,7 @@ This is a simple Flask web application that allows users to upload audio files a
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/speech-to-text-app.git
+git clone https://github.com/kaansen97/speech-to-text-app.git
 cd speech-to-text-app
 ```
 ### 2. Install Dependencies
