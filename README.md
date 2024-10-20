@@ -17,3 +17,29 @@ This is a simple Flask web application that allows users to upload audio files a
 ```bash
 git clone https://github.com/yourusername/speech-to-text-app.git
 cd speech-to-text-app
+```
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3.Install FFmpeg
+On Mac :
+brew install ffmpeg
+On Ubuntu :
+sudo apt update
+sudo apt install ffmpeg
+
+### 4. Run the Flask App
+To start the Flask app, run:
+python app.py
+
+## File Structure
+speech-to-text-app/
+├── app.py               # Main Flask application
+├── templates/           # HTML templates
+│   ├── index.html       # Upload page template
+│   └── result.html      # Result page template
+├── uploads/             # Directory where uploaded files are temporarily stored
+├── requirements.txt     # Python dependencies
+├── README.md            # This file
+
+
