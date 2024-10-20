@@ -34,6 +34,7 @@ python app.py
 
 ## File Structure
 speech-to-text-app/
+
 ├── app.py               # Main Flask application
 ├── templates/           # HTML templates
 │   ├── index.html       # Upload page template
@@ -41,5 +42,4 @@ speech-to-text-app/
 ├── uploads/             # Directory where uploaded files are temporarily stored
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
-
 
