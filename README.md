@@ -33,6 +33,7 @@ To start the Flask app, run:
 python app.py
 
 ## File Structure
+``` bash
 speech-to-text-app/
 
 ├── app.py               # Main Flask application
@@ -42,4 +43,4 @@ speech-to-text-app/
 ├── uploads/             # Directory where uploaded files are temporarily stored
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
-
+```
