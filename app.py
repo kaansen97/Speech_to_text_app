@@ -6,7 +6,7 @@ import subprocess
 from threading import Timer
 
 app = Flask(__name__)
-
+# Below code you can download a Large model if you want more precision but this will slow your computation
 model = whisper.load_model("medium")  
 
 @app.route('/')
