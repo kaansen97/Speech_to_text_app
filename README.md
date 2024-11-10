@@ -19,7 +19,7 @@ git clone https://github.com/kaansen97/speech-to-text-app.git
 cd speech-to-text-app
 ```
 
-# For Python 3.9 or later (Set up environment)
+## For Python 3.9 or later (Set up environment)
 
 ```bash
 python3.9 -m venv TTS_Model_env
@@ -27,14 +27,20 @@ source TTS_Model_env/bin/activate  # On macOS or Linux
 ```
 
 ### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3.Install FFmpeg
 On Mac :
+```bash
 brew install ffmpeg
+```
 On Ubuntu :
+```bash
 sudo apt update
 sudo apt install ffmpeg
+```
 
 ### 4. Run the Flask App
 To start the Flask app, run:
